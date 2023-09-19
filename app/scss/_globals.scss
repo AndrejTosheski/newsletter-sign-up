@@ -1,0 +1,51 @@
+@use "breakpoints" as b;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--darkSlateGrey);
+  font-family: var(--fm);
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  color: var(--darkSlateGrey);
+}
+
+h1 {
+}
+
+.main {
+  background-color: var(--white);
+
+  &__image {
+    min-height: 18rem;
+    background-image: url("/assets/images/illustration-sign-up-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+
+  &__text {
+    height: 100vh;
+  }
+
+  &__list {
+  }
+
+  &__form {
+  }
+}

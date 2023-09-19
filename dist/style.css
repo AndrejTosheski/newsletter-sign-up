@@ -1,0 +1,49 @@
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --darkSlateGrey: hsl(234, 29%, 20%);
+  --charcoalGrey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+  --fm: "Roboto", sans-serif;
+  --fs-sm: 1rem;
+  --fs-lg: 2.25rem;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--darkSlateGrey);
+  font-family: var(--fm);
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  color: var(--darkSlateGrey);
+}
+
+.main {
+  background-color: var(--white);
+}
+.main__image {
+  min-height: 18rem;
+  background-image: url("/assets/images/illustration-sign-up-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.main__text {
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */

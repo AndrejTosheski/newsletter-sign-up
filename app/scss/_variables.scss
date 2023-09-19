@@ -1,0 +1,15 @@
+@use "functions" as f;
+
+:root {
+  // COLORS
+  --tomato: hsl(4, 100%, 67%);
+  --darkSlateGrey: hsl(234, 29%, 20%);
+  --charcoalGrey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+
+  // FONTS
+  --fm: "Roboto", sans-serif;
+  --fs-sm: #{f.rem(16)};
+  --fs-lg: #{f.rem(36)};
+}
