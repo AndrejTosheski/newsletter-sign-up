@@ -46,7 +46,10 @@
             </li>
           </ul>
           <form class="main__form">
-            <label for="mail">Email address</label>
+            <div class="row">
+              <label for="mail">Email address</label>
+              <span id="error"> </span>
+            </div>
             <input
               type="text"
               id="mail"
@@ -54,7 +57,7 @@
               placeholder="email@company.com "
               required
             />
-            <button class="button" type="button" title="btn">
+            <button id="btnSubmit" class="button" type="button" title="btn">
               Subscribe to monthly newsletter
             </button>
           </form>
